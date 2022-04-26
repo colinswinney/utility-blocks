@@ -1,0 +1,34 @@
+{
+	"name": "utility-blocks",
+	"version": "1.0.0",
+	"description": "A collection of useful blocks",
+	"main": "(index.js) build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"check-engines": "wp-scripts check-engines",
+		"check-licenses": "wp-scripts check-licenses",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"lint:md:docs": "wp-scripts lint-md-docs",
+		"lint:pkg-json": "wp-scripts lint-pkg-json",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start",
+		"test:e2e": "wp-scripts test-e2e",
+		"test:unit": "wp-scripts test-unit-js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/colinswinney/utility-blocks.git"
+	},
+	"author": "Colin Swinney",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/colinswinney/utility-blocks/issues"
+	},
+	"homepage": "https://github.com/colinswinney/utility-blocks#readme",
+	"devDependencies": {
+		"@wordpress/scripts": "^22.5.0"
+	}
+}
